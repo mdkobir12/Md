@@ -32,9 +32,9 @@
      
 
         <label for="">gender</label><br>
-        <input type="radio" name="shagor" id="male" required> <label for="male">male</label>
-        <input type="radio" name="shagor" id="female" required> <label for="female">female</label>
-        <input type="radio" name="shagor" id="other's" required> <label for="other's">other's</label><br><br>
+        <input type="radio" id="male" required> <label for="male">male</label>
+        <input type="radio"id="female" required> <label for="female">female</label>
+        <input type="radio"id="other's" required> <label for="other's">other's</label><br><br>
        
         
         <input type="submit" value="Submit">
