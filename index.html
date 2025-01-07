@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./asseats/css/bootstrap.css">
+    <link rel="stylesheet" href="./asseats/css/bootstrap.min.css">
+  </head>
+
+  <body>
+
+    <div class="row bg-info">
+      <div class="text-center p-5 fs-1 text-capitalize font-monospace">
+        somity information
+      </div>
+      <div class="col-6 px-4">
+    <label for="">Enter your name :</label><br>
+    <input class="form-control" type="text" required placeholder="Place your name...." id="name" /><br>
+   
+    <label for="">Mobile number :</label><br>
+    <input class="form-control" required placeholder="Mobile number" id="mobile_number"><br>
+   
+   
+    <label for="">Email :</label><br>
+    <input class="form-control" type="text" required placeholder="Enter email" id="email"><br>
+    <button class="border-5" id="calculete" onclick="calculate()">calculete</button> <br> <br> <br>
+      </div>
+
+      <div class="col-6 px-4">
+        
+    <label for="">Address :</label><br>
+    <input class="form-control" type="text" required placeholder="Unic Address" id="address"><br>
+   
+
+    <label for="">Loan amount :</label><br>
+    <input class="form-control" type="text"required placeholder=" Loan Amount" id="loanAmount"><br>
+   
+
+    <label for="">monts :</label><br>
+        <select name="" id="month" class="form-control">
+          <option value="6"> 6 month</option>
+          <option value="12"> 1 year</option>
+          <option value="24"> 2 year</option>
+        </select>
+
+
+      </div>
+    </div>  
+    <div class="container text-lg-center bg-light">
+      <h1 class="test-center">somity result</h1>
+
+      <p>Name: <span id="show-name"></span></p>
+      <p>Mobile number : <span id="show-number"></span></p>
+      <p>Email : <span id="show-email"></span></p>
+      <p>address : <span id="show-address"></span></p>
+      <p>total Interest : <span id="show-amount"></span></p>
+      <!-- <p>totalInterest : <span id="show-amount"></span></p> -->
+    </div> 
+    </select>
+    <script src="./main.js"></script>
+    <script src="./asseats/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
